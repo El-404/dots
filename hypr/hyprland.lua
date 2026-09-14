@@ -15,10 +15,10 @@
 -- You can (and should!!) split this configuration into multiple files
 -- Create your files separately and then require them like this:
 -- require("myColors")
-
+require("./environment.lua")
 hl.config({
 	    decoration = {
-	    	screen_shader = "/usr/share/hyprshade/shaders/paper.glsl"
+	    	screen_shader = "~/.config/shaders/paper.glsl"
 	    }
     })
 ------------------
@@ -77,11 +77,6 @@ end)
 -------------------------------
 
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
-
-hl.env("XCURSOR_SIZE", "24")
-hl.env("HYPRCURSOR_SIZE", "24")
-hl.env("HYPRCURSOR_THEME", "Nordzy-hyprcursors")
-hl.env("XCURSOR_THEME", "Nordzy-hyprcursors")
 
 
 -----------------------
