@@ -1,0 +1,14 @@
+2026-09-13 09:40:30.809 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-13 09:40:30.942 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 09:40:31.119 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-13 09:40:31.220 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/YWI3NDBmM2MtNzk5OC00ZTVjLWFjOTItY2ZkYmFiNmVmY2I0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 09:40:31.234 [info] Started local extension host with pid 222772.
+2026-09-13 09:40:31.307 [info] [AgentHost:renderer] Protocol connection established; clientId=1f92ab5d-536a-4751-8621-c9f4b97b2646
+2026-09-13 09:40:31.864 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 09:40:32.016 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-13 09:40:32.036 [info] [AgentHost] Clearing authentication for resource: https://api.github.com
+2026-09-13 09:40:32.042 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-13 09:40:32.043 [info] [AgentHost] Clearing authentication for resource: https://api.github.com/repos
+2026-09-13 09:40:32.209 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/YWI3NDBmM2MtNzk5OC00ZTVjLWFjOTItY2ZkYmFiNmVmY2I0" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 09:40:33.836 [info] [perf] Render performance baseline is 11ms
+2026-09-13 09:40:36.865 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

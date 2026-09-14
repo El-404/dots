@@ -1,0 +1,6 @@
+2026-09-11 14:57:44.557 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-11 14:57:44.606 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 40ms.
+2026-09-11 14:57:44.915 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-11 14:57:44.955 [info] Started local extension host with pid 30247.
+2026-09-11 14:57:45.621 [info] [AgentHost:renderer] Protocol connection established; clientId=c4ea2086-f530-4885-afe9-baf8ca01372c
+2026-09-11 14:57:45.856 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled

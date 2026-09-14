@@ -1,0 +1,104 @@
+1789143640760	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789143685928	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789143690967	Sync.Engine.Tabs	INFO	update_local_state has 15 tab entries
+1789143690968	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789143690968	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789143690970	Sync.Engine.Tabs	INFO	prepare_for_upload found 15 tabs
+1789143690972	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789143690972	Sync.Collection	DEBUG	POST Length: 6487
+1789143691113	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/276430748/storage/tabs
+1789143691114	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1789143692973	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789143696838	Sync.SyncScheduler	DEBUG	Going to sleep, doing a quick sync.
+1789143696838	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789143696838	Sync.Service	INFO	Starting sync at 2026-09-11 12:21:36 in browser session Y7RtirIyvila
+1789143696838	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789143696841	Sync.Status	INFO	Resetting Status.
+1789143696841	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789143696842	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789145488830	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1789145488830	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789145488831	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789145488833	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789145488837	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1789145488838	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1789145488838	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1789145488838	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789145488845	Sync.Engine.Tabs	INFO	update_local_state has 15 tab entries
+1789145488845	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789145488845	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789145488849	Sync.Engine.Tabs	INFO	prepare_for_upload found 15 tabs
+1789145488849	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789145488849	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789145488850	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789145488850	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789145488850	Sync.SyncAuthManager	INFO	Getting sync key
+1789145488850	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789145488851	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1789145488851	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789145488851	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1789145488851	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1789145488851	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1789145488851	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1789145488851	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1789145488982	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1789145488982	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1789145488982	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1789145488982	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1789145488982	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1789145488982	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1789145488983	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789145488983	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1789145488983	Sync.Collection	DEBUG	POST Length: 6487
+1789145488983	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789145488983	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789145489092	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/276430748/storage/tabs failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1789145489092	Sync.Engine.Tabs	WARN	quicksync sync failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1789145490840	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789145490840	Sync.Service	INFO	Starting sync at 2026-09-11 12:51:30 in browser session Y7RtirIyvila
+1789145490840	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1789145490840	Sync.Service	INFO	Cannot start sync: already syncing?
+1789145500853	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789145500857	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789145505884	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1789145507799	Sync.RemoteTabs	INFO	Generating tab list with filter
+1789145507802	Sync.Engine.Tabs	WARN	Dropping tabs from an unknown client: 4omPSwQOT_S0
+1789145507802	Sync.RemoteTabs	DEBUG	Processing client: {"id":"5GLWxdUHEcJw","type":"client","name":"404el’s Firefox on ELaptop","clientType":"desktop","lastModified":1789100645520,"tabs":[]}
+1789145507803	Sync.RemoteTabs	DEBUG	Processing client: {"id":"bWKpQZM2Lz8k","type":"client","name":"el’s Firefox on El-Laptop","clientType":"desktop","lastModified":1789009558750,"tabs":[]}
+1789145507803	Sync.RemoteTabs	DEBUG	Processing client: {"id":"bf1855ec2b43e6ffd8b3ec4be04e9ba8","type":"client","name":"Firefox on samsung SM-S942U","clientType":"phone","lastModified":1789129538820,"tabs":[]}
+1789145507803	Sync.RemoteTabs	DEBUG	Processing client: {"id":"e342ebb0e9ee14acb26de6042262ab57","type":"client","name":"Firefox on samsung SM-S942U","clientType":"phone","lastModified":1783833170540,"tabs":[]}
+1789145507803	Sync.RemoteTabs	INFO	Final tab list has 4 clients with 31 tabs.
+1789145512606	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789145515852	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789145517730	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1789145658374	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1789145658374	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1789145658376	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789145658378	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789145658379	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789145658379	Sync.Service	INFO	Starting sync at 2026-09-11 12:54:18 in browser session Y7RtirIyvila
+1789145658379	Sync.Service	DEBUG	Exception calling anonymous function: LockException: Could not acquire lock. Label: "service.js: sync".(resource://services-sync/util.sys.mjs:43:5) JS Stack trace: LockException@util.sys.mjs:43:5
+throwLockException@util.sys.mjs:128:11
+WrappedLock@util.sys.mjs:143:15
+_lockedSync@service.sys.mjs:1397:6
+sync/<@service.sys.mjs:1371:18
+WrappedCatch@util.sys.mjs:113:27
+sync@service.sys.mjs:1372:7
+1789145658379	Sync.Service	INFO	Cannot start sync: already syncing?
+1789145659641	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789145662954	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789145663398	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789145667990	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: error.login.reason.network, service: error.login.failed, sync: success.sync>
+1789145685932	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/276430748/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1789145685933	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1789145685933	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789145685933	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1789145685939	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

@@ -1,0 +1,94 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "6e39e3f4671f3613ca6ef97e49c0c62f0371e0c14d850621de80851279dbde85",
+    "telemetry.devDeviceId": "73d0c8e8-5d26-41be-8b7e-529b6abd85ab",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///usr/share/hyprshade/shaders"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/ethan/shaders": "__default__profile__",
+            "file:///usr/share/hyprshade/shaders": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "modernActivityBarBackground": "#191a1b",
+            "modernActivityBarInactiveBackground": "#191a1b",
+            "modernActivityBarBorder": "#252526",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "panelBackground": "#191a1b",
+            "editorGroupBorder": "rgba(255, 255, 255, 0.09)",
+            "editorBorder": "#2a2b2c",
+            "surfaceBackground": "#191a1b",
+            "surfaceBorder": "#2a2b2c",
+            "agentsPanelBackground": "#191a1b",
+            "agentsPanelBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false,
+            "modernUI": false,
+            "modernUICompact": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 170,
+            "workspaces": {
+                "8684f6c6a91f7ec11abefd1b102a56d1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "b7a87c28006f69ffc45926a8583a6b91": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///usr/share/hyprshade/shaders",
+            "backupPath": "/home/ethan/.config/Code - OSS/Backups/9e581e48d36e68bd2b30de19c917bf75",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 1280,
+                "height": 800
+            }
+        },
+        "openedWindows": []
+    }
+}

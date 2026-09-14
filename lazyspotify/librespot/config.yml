@@ -1,0 +1,18 @@
+log_level: error
+zeroconf_enabled: false
+mpris_enabled: true
+audio_backend: alsa
+device_name: lazyspotify
+credentials:
+    type: spotify_token
+    spotify_token:
+        username: 31zymhkmu3ikjsuravwpnivdulky
+        access_token: BQCv-GlThxtdYT-4l46gGK8GoZ3l--CZ2lilxNeeRwgZ2rxggi_0jaDgBX8rX6HaDizIeqgdUUBQDN0Xm_2-C7Cufww06yXHkeb-a-jgpWcoRSkqF1D2uu_k6hQkznPsInVh45DCNzvBR-zQrMdO1etBP84O2Qy7sv0BFuuvlId5PbQVKc5EGQP1tLYtzxfU-8Xa5Ro9QMRfrwoH9WFljvQvD-gS4zHX4wgTPw-wu8IHnb-doIiKq05lbgJuEg4xvZaQ8HoxHuO0O0DlWdV5WBloTtvTIXAOwSvuCn4qyS5bP_8
+server:
+    enabled: true
+    address: 127.0.0.1
+    port: 4040
+    allow_origin: '*'
+    cert_file: ""
+    key_file: ""
+    image_size: small

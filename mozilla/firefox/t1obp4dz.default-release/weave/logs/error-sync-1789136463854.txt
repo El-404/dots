@@ -1,0 +1,79 @@
+1789133270138	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789133270857	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789133273221	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789133273228	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789133273579	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789133274251	Sync.Engine.Tabs	INFO	update_local_state has 10 tab entries
+1789133274251	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789133274251	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789133274253	Sync.Engine.Tabs	INFO	prepare_for_upload found 10 tabs
+1789133274253	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789133274254	Sync.Collection	DEBUG	POST Length: 4931
+1789133274403	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/276430748/storage/tabs
+1789133274404	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1789133276688	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789133276691	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789133281691	Sync.Engine.Tabs	INFO	update_local_state has 9 tab entries
+1789133281691	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789133281691	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789133281694	Sync.Engine.Tabs	INFO	prepare_for_upload found 9 tabs
+1789133281694	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789133281695	Sync.Collection	DEBUG	POST Length: 3607
+1789133281809	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/276430748/storage/tabs
+1789133281809	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1789133283005	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789133288091	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1789133288815	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1789133293103	Sync.Engine.Tabs	INFO	update_local_state has 9 tab entries
+1789133293103	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789133293103	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789133293106	Sync.Engine.Tabs	INFO	prepare_for_upload found 9 tabs
+1789133293107	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789133293107	Sync.Collection	DEBUG	POST Length: 3607
+1789133293235	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/276430748/storage/tabs
+1789133293235	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1789136461837	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1789136461837	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789136461838	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1789136461838	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789136461841	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1789136461841	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1789136461841	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1789136461842	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789136463842	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789136463842	Sync.Service	INFO	Starting sync at 2026-09-11 10:21:03 in browser session Y7RtirIyvila
+1789136463842	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789136463845	Sync.Status	INFO	Resetting Status.
+1789136463845	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789136463845	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789136463845	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789136463845	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789136463845	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1789136463845	Sync.SyncAuthManager	INFO	Getting sync key
+1789136463845	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1789136463846	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'https://identity.mozilla.com/apps/oldsync'
+1789136463846	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1789136463846	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'https://identity.mozilla.com/apps/oldsync'
+1789136463846	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1789136463846	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1789136463846	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1789136463846	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1789136463847	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1789136463848	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1789136463848	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1789136463848	Sync.SyncAuthManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1789136463848	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1789136463848	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1789136463848	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1789136463848	Sync.SyncAuthManager	ERROR	Failed to fetch a token for authentication: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.sys.mjs:28:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.sys.mjs:51:16
+_tokenServerExchangeRequest@tokenserverclient.sys.mjs:235:13
+1789136463849	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1789136463849	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1789136463851	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/276430748/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1789136463851	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1789136463851	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1789136463851	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1789136463852	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789136463852	Sync.Telemetry	INFO	Early submission of sync telemetry due to changed IDs/NodeType
+1789136463853	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

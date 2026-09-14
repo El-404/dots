@@ -1,0 +1,53 @@
+2026-09-13 02:26:20.348 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-13 02:26:20.486 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:26:20.662 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-13 02:26:20.746 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/YjE4Y2I3MjYtZWM0YS00NTAxLTlkYjUtYTZiNWFjOWI1ZjU5" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:26:20.757 [info] Started local extension host with pid 219803.
+2026-09-13 02:26:20.831 [info] [AgentHost:renderer] Protocol connection established; clientId=c3828e07-cd99-499d-aae0-b88155cafe6e
+2026-09-13 02:26:21.403 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 02:26:21.562 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-13 02:26:21.571 [info] [AgentHost] Clearing authentication for resource: https://api.github.com
+2026-09-13 02:26:21.577 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-13 02:26:21.578 [info] [AgentHost] Clearing authentication for resource: https://api.github.com/repos
+2026-09-13 02:26:21.715 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/YjE4Y2I3MjYtZWM0YS00NTAxLTlkYjUtYTZiNWFjOWI1ZjU5" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:26:23.416 [info] [perf] Render performance baseline is 12ms
+2026-09-13 02:26:26.403 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 02:26:46.424 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:27:56.851 [error] [text file model] handleSaveError(3) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:28:22.780 [error] [text file model] handleSaveError(5) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:28:25.387 [error] [text file model] handleSaveError(6) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:28:56.631 [error] [text file model] handleSaveError(8) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:29:07.707 [error] [text file model] handleSaveError(9) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:29:17.564 [error] [text file model] handleSaveError(11) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:29:33.992 [error] [text file model] handleSaveError(12) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:29:58.985 [error] [text file model] handleSaveError(14) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:30:35.081 [error] [text file model] handleSaveError(17) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:31:33.104 [error] [text file model] handleSaveError(28) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 09:40:15.990 [error] Unknown (FileSystemError): Failed to move 'paper.glsl' to the trash (Failed to move item to trash)
+    at i.create (file:///usr/lib/code/out/main.js:440:34833)
+    at ir (file:///usr/lib/code/out/main.js:440:33415)
+    at Ph.delete (file:///usr/lib/code/out/main.js:476:33330)
+2026-09-13 09:40:15.994 [error] Failed to move 'paper.glsl' to the trash (Failed to move item to trash): Unknown (FileSystemError): Failed to move 'paper.glsl' to the trash (Failed to move item to trash)
+    at i.create (file:///usr/lib/code/out/main.js:440:34833)
+    at ir (file:///usr/lib/code/out/main.js:440:33415)
+    at Ph.delete (file:///usr/lib/code/out/main.js:476:33330)
+2026-09-13 09:40:16.880 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, unlink '/usr/share/hyprshade/shaders/paper.glsl'
+    at i.create (file:///usr/lib/code/out/main.js:440:34833)
+    at ir (file:///usr/lib/code/out/main.js:440:33415)
+    at i.toFileSystemProviderError (file:///usr/lib/code/out/main.js:476:28194)
+    at i.delete (file:///usr/lib/code/out/main.js:476:25992)
+2026-09-13 09:40:16.882 [error] Error: EACCES: permission denied, unlink '/usr/share/hyprshade/shaders/paper.glsl': NoPermissions (FileSystemError): Error: EACCES: permission denied, unlink '/usr/share/hyprshade/shaders/paper.glsl'
+    at i.create (file:///usr/lib/code/out/main.js:440:34833)
+    at ir (file:///usr/lib/code/out/main.js:440:33415)
+    at i.toFileSystemProviderError (file:///usr/lib/code/out/main.js:476:28194)
+    at i.delete (file:///usr/lib/code/out/main.js:476:25992)
+2026-09-13 09:40:17.910 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, unlink '/usr/share/hyprshade/shaders/paper.glsl'
+    at i.create (file:///usr/lib/code/out/main.js:440:34833)
+    at ir (file:///usr/lib/code/out/main.js:440:33415)
+    at i.toFileSystemProviderError (file:///usr/lib/code/out/main.js:476:28194)
+    at i.delete (file:///usr/lib/code/out/main.js:476:25992)
+2026-09-13 09:40:17.913 [error] Error: EACCES: permission denied, unlink '/usr/share/hyprshade/shaders/paper.glsl': NoPermissions (FileSystemError): Error: EACCES: permission denied, unlink '/usr/share/hyprshade/shaders/paper.glsl'
+    at i.create (file:///usr/lib/code/out/main.js:440:34833)
+    at ir (file:///usr/lib/code/out/main.js:440:33415)
+    at i.toFileSystemProviderError (file:///usr/lib/code/out/main.js:476:28194)
+    at i.delete (file:///usr/lib/code/out/main.js:476:25992)

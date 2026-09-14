@@ -1,0 +1,25 @@
+1789073187913	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1789075817803	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1789075817803	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789075817804	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1789075817806	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789075817807	Sync.SyncScheduler	DEBUG	Woke from sleep.
+1789075817809	Sync.SyncScheduler	DEBUG	Online, will sync in 2s.
+1789075817809	Sync.SyncScheduler	DEBUG	Next sync in 2000 ms. (why=wake_notification)
+1789075817809	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1789075817906	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904173043.desktop
+1789075817907	Sync.Service	INFO	Starting sync at 2026-09-10 17:30:17 in browser session 8WDCxUWVZsrt
+1789075817907	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1789075817909	Sync.Status	INFO	Resetting Status.
+1789075817909	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1789075817910	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1789075817910	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1789075817910	FirefoxAccounts	DEBUG	getCachedToken returning null for expired token
+1789075817911	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/oauth/token
+1789075817911	Services.Common.RESTRequest	DEBUG	POST Length: 81
+1789075818056	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/276430748/info/collections?v=1.157.0 failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1789075818056	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1789075818056	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1789075818056	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1789075818057	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1789075818059	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

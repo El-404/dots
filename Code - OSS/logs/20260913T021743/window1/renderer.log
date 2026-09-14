@@ -1,0 +1,93 @@
+2026-09-13 02:17:43.556 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-13 02:17:43.693 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:17:43.918 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-13 02:17:43.920 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Njk0Y2M4M2YtOThjZS00MWU1LWFlNjQtMzIzY2I1N2E0ODky" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:17:43.973 [info] Started local extension host with pid 209502.
+2026-09-13 02:17:44.058 [info] [AgentHost:renderer] Protocol connection established; clientId=8cc3a14f-d3dc-454c-9bb8-b114446dee35
+2026-09-13 02:17:44.290 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 02:17:44.383 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-13 02:17:44.384 [info] [AgentHost] Clearing authentication for resource: https://api.github.com
+2026-09-13 02:17:44.385 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-13 02:17:44.386 [info] [AgentHost] Clearing authentication for resource: https://api.github.com/repos
+2026-09-13 02:17:44.557 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Njk0Y2M4M2YtOThjZS00MWU1LWFlNjQtMzIzY2I1N2E0ODky" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:17:46.510 [info] [perf] Render performance baseline is 11ms
+2026-09-13 02:17:48.532 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/Njk0Y2M4M2YtOThjZS00MWU1LWFlNjQtMzIzY2I1N2E0ODky" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:17:49.290 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 02:18:07.299 [error] Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl')
+    at ame.writeFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89711)
+    at async ame.createFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89057)
+    at async Promise.all (index 0)
+    at async Object.s [as settled] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:434:84788)
+    at async Ndt.doCreateFileOrFolder (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1099:4210)
+    at async zQe.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:10353)
+    at async KQe.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:13637)
+    at async CEt._performFileEdits (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20988)
+    at async CEt.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20426)
+    at async kEt.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:23021)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4305:81206
+    at async r (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1959:16139)
+2026-09-13 02:18:07.300 [error] Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl'): Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl')
+    at ame.writeFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89711)
+    at async ame.createFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89057)
+    at async Promise.all (index 0)
+    at async Object.s [as settled] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:434:84788)
+    at async Ndt.doCreateFileOrFolder (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1099:4210)
+    at async zQe.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:10353)
+    at async KQe.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:13637)
+    at async CEt._performFileEdits (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20988)
+    at async CEt.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20426)
+    at async kEt.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:23021)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4305:81206
+    at async r (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1959:16139)
+2026-09-13 02:18:09.942 [error] Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl')
+    at ame.writeFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89711)
+    at async ame.createFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89057)
+    at async Promise.all (index 0)
+    at async Object.s [as settled] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:434:84788)
+    at async Ndt.doCreateFileOrFolder (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1099:4210)
+    at async zQe.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:10353)
+    at async KQe.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:13637)
+    at async CEt._performFileEdits (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20988)
+    at async CEt.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20426)
+    at async kEt.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:23021)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4305:81206
+    at async r (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1959:16139)
+2026-09-13 02:18:09.942 [error] Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl'): Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl')
+    at ame.writeFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89711)
+    at async ame.createFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89057)
+    at async Promise.all (index 0)
+    at async Object.s [as settled] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:434:84788)
+    at async Ndt.doCreateFileOrFolder (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1099:4210)
+    at async zQe.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:10353)
+    at async KQe.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:13637)
+    at async CEt._performFileEdits (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20988)
+    at async CEt.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20426)
+    at async kEt.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:23021)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4305:81206
+    at async r (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1959:16139)
+2026-09-13 02:18:12.033 [error] Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl')
+    at ame.writeFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89711)
+    at async ame.createFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89057)
+    at async Promise.all (index 0)
+    at async Object.s [as settled] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:434:84788)
+    at async Ndt.doCreateFileOrFolder (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1099:4210)
+    at async zQe.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:10353)
+    at async KQe.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:13637)
+    at async CEt._performFileEdits (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20988)
+    at async CEt.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20426)
+    at async kEt.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:23021)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4305:81206
+    at async r (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1959:16139)
+2026-09-13 02:18:12.034 [error] Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl'): Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl')
+    at ame.writeFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89711)
+    at async ame.createFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89057)
+    at async Promise.all (index 0)
+    at async Object.s [as settled] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:434:84788)
+    at async Ndt.doCreateFileOrFolder (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1099:4210)
+    at async zQe.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:10353)
+    at async KQe.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:13637)
+    at async CEt._performFileEdits (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20988)
+    at async CEt.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20426)
+    at async kEt.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:23021)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4305:81206
+    at async r (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1959:16139)

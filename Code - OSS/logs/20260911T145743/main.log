@@ -1,0 +1,12 @@
+2026-09-11 14:57:43.623 [info] StorageMainService: creating application shared storage
+2026-09-11 14:57:43.634 [error] Invalid path provided: /home/ethan/shaders, ENOENT: no such file or directory, stat '/home/ethan/shaders'
+2026-09-11 14:57:43.712 [info] [shared storage] Creating shared storage database at '/home/ethan/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-09-11 14:57:43.714 [info] [shared storage] Initializing fallback application storage (path: /home/ethan/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-09-11 14:57:43.726 [info] [shared storage] Fallback application storage initialized with 55 items
+2026-09-11 14:57:43.730 [info] update#setState disabled
+2026-09-11 14:57:43.731 [info] update#ctor - updates are disabled as there is no update URL
+2026-09-11 14:57:44.603 [info] AgentHostProcessManager: agent host started
+2026-09-11 14:57:45.515 [error] [AgentHost:stderr] (node:30197) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-09-11 14:57:45.906 [info] Extension host with pid 30247 exited with code: 0, signal: unknown.

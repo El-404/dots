@@ -1,0 +1,45 @@
+2026-09-13 02:18:38.610 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-13 02:18:38.746 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:18:38.936 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-13 02:18:38.975 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/YWQxNGM2ZDYtNDIyOC00MzZiLWI5NTEtNGZmMzRlMzI0ZWNj" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:18:39.064 [info] Started local extension host with pid 209879.
+2026-09-13 02:18:39.100 [info] [AgentHost:renderer] Protocol connection established; clientId=67d53e44-814b-4c28-8089-663d60c0b241
+2026-09-13 02:18:39.110 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/YWQxNGM2ZDYtNDIyOC00MzZiLWI5NTEtNGZmMzRlMzI0ZWNj" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:18:39.555 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 02:18:39.655 [info] [AgentHost] No token resolved for resource: https://api.github.com
+2026-09-13 02:18:39.656 [info] [AgentHost] Clearing authentication for resource: https://api.github.com
+2026-09-13 02:18:39.673 [info] [AgentHost] No token resolved for resource: https://api.github.com/repos
+2026-09-13 02:18:39.676 [info] [AgentHost] Clearing authentication for resource: https://api.github.com/repos
+2026-09-13 02:18:39.786 [info] [ChatModelSelection] event=no-model-at-toolbar-build surface="workbench" sessionKey="local" conversationKey="vscode-chat-session://local/YWQxNGM2ZDYtNDIyOC00MzZiLWI5NTEtNGZmMzRlMzI0ZWNj" modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view"
+2026-09-13 02:18:41.699 [info] [perf] Render performance baseline is 11ms
+2026-09-13 02:18:44.556 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-13 02:18:55.727 [error] Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl')
+    at ame.writeFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89711)
+    at async ame.createFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89057)
+    at async Promise.all (index 0)
+    at async Object.s [as settled] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:434:84788)
+    at async Ndt.doCreateFileOrFolder (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1099:4210)
+    at async zQe.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:10353)
+    at async KQe.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:13637)
+    at async CEt._performFileEdits (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20988)
+    at async CEt.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20426)
+    at async kEt.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:23021)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4305:81206
+    at async r (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1959:16139)
+2026-09-13 02:18:55.738 [error] Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl'): Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl')
+    at ame.writeFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89711)
+    at async ame.createFile (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:5600:89057)
+    at async Promise.all (index 0)
+    at async Object.s [as settled] (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:434:84788)
+    at async Ndt.doCreateFileOrFolder (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1099:4210)
+    at async zQe.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:10353)
+    at async KQe.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:13637)
+    at async CEt._performFileEdits (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20988)
+    at async CEt.perform (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:20426)
+    at async kEt.apply (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4307:23021)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:4305:81206
+    at async r (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1959:16139)
+2026-09-13 02:19:15.023 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:19:41.530 [error] [text file model] handleSaveError(5) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:20:46.692 [error] [text file model] handleSaveError(17) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
+2026-09-13 02:21:19.937 [error] [text file model] handleSaveError(19) - exit - resulted in a save error: Error: Unable to write file '/usr/share/hyprshade/shaders/paper.glsl' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/usr/share/hyprshade/shaders/paper.glsl') file:///usr/share/hyprshade/shaders/paper.glsl
