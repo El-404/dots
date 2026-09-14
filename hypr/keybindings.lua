@@ -97,3 +97,4 @@ hl.bind("SHIFT + " .. mainMod .. " +  F6", hl.dsp.exec_cmd("hyprshade on reading
 hl.bind("SHIFT + " .. mainMod .. " +  F7", hl.dsp.exec_cmd("hyprshade on vhs"))
 hl.bind("SHIFT + " .. mainMod .. " +  F8", hl.dsp.exec_cmd("hyprshade off"))
 
+

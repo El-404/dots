@@ -16,6 +16,7 @@
 -- Create your files separately and then require them like this:
 -- require("myColors")
 require("./environment.lua")
+hl.permission("/usr/(bin|local/bin)/hyprpm", "plugin", "allow")
 hl.config({
 	    decoration = {
 	    	screen_shader = "~/.config/shaders/paper.glsl"
